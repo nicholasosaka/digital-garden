@@ -2,6 +2,7 @@
 title: Nikko's Notes
 date: 2025-11-01
 updated: 2025-11-03
+published: 2025-11-01
 ---
 
 Hi, my name is Nikko. I'm a writer/thinker/engineer. You've found my "digital garden," or in other words just a mix of hypertext notes of things I'm working on. 
