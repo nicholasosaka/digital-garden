@@ -1,9 +1,10 @@
 ---
 title: Nikko's Notes
 date: 2025-11-01
+updated: 2025-11-03
 ---
 
-My name is Nikko. I'm a writer/thinker/engineer. This is where I'm creating a "digital garden," or in other words just a mix of hypertext notes of things I'm working on. 
+Hi, my name is Nikko. I'm a writer/thinker/engineer. You've found my "digital garden," or in other words just a mix of hypertext notes of things I'm working on. 
 
 This is an extension of my [website](https://nosaka.xyz), although it will likely quickly eclipse the "main" site.
 
