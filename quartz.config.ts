@@ -13,17 +13,19 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "umami",
+      host: "cloud.umami.is",
+      websiteId: "b69e713f-f84e-4892-b2aa-a4e98a5dafe9"
     },
     locale: "en-US",
     baseUrl: "garden.nosaka.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "published",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
+        header: "Momo Trust Display",
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
