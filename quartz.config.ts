@@ -14,7 +14,6 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "umami",
-      host: "cloud.umami.is",
       websiteId: "b69e713f-f84e-4892-b2aa-a4e98a5dafe9"
     },
     locale: "en-US",
@@ -25,9 +24,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Momo Trust Display",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Playfair Display",
+        body: "Lato",
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
