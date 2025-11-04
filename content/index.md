@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Test doc
 ---
 
 This is a blank Quartz installation.
