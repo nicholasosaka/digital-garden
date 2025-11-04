@@ -28,13 +28,20 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
     if (text) {
       const segments: (string | JSX.Element)[] = []
+      const subtitles: (string | JSX.Element)[] = []
 
-      if (fileData.dates) {
+      if (fileData.dates && !fileData.frontmatter?.hideDate) {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       }
 
-      // Display reading time if enabled
-      if (options.showReadingTime) {
+      if (fileData.frontmatter?.subtitle) {
+        subtitles.push(
+          `${fileData.frontmatter.subtitle}`
+        )
+      }
+
+      // Display reading time if enabled AND not an index file
+      if (options.showReadingTime && !fileData.filePath.includes("index.md")) {
         const { minutes, words: _words } = readingTime(text)
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
@@ -43,9 +50,16 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       }
 
       return (
-        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
-          {segments}
-        </p>
+        <>
+          {subtitles.length > 0 && (
+            <p style={{ margin: '0', padding: '0' }}  class={classNames(displayClass, "content-meta")}>
+              <span style={{fontStyle: 'italic'}}>{subtitles}</span>
+            </p>
+          )}
+          <p show-comma={options.showComma} style={{ margin: '0', padding: '0' }} class={classNames(displayClass, "content-meta")}>
+            {segments}
+          </p>
+        </>
       )
     } else {
       return null
