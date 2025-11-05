@@ -1,6 +1,6 @@
 ---
 title: Nikko's Notes
-date: 2025-11-01
+created: 2025-11-01
 updated: 2025-11-03
 published: 2025-11-01
 hideDate: true

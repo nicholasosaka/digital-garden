@@ -1,6 +1,8 @@
 ---
 title: fragments
 published: 2025-11-04
+created: 2025-11-04
+modified: 2025-11-04
 hideDate: true
 ---
 

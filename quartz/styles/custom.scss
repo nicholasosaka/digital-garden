@@ -8,3 +8,23 @@ sup {
   font-size: 0.65em;
   vertical-align: top;
 }
+
+//// dividers ////
+hr {
+  overflow: visible;
+  padding: 0;
+  height: 0;
+  margin: 4em auto;
+  border: none;
+  text-align: center;
+  width: 100%;
+ 
+  &:after {
+    content: "* * *";
+    display: inline-block;
+    margin: -1em 0 0.5em;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    color: var(--gray);
+  }
+}
