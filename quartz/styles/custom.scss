@@ -28,3 +28,10 @@ hr {
     color: var(--gray);
   }
 }
+
+
+// center mermaid diagrams only if `mermaid-center` css class is applied
+
+.mermaid-center .mermaid {
+  justify-items: center;
+}
