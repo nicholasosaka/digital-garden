@@ -1,5 +1,5 @@
 ---
-title: "prompt engineering: stemification of writing"
+title: stemification of writing
 created: 2025-11-12
 modified: 2025-11-12
 published: 2025-11-12
