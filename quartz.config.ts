@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "nosaka.xyz",
-    pageTitleSuffix: " | notes.nosaka.xyz",
+    pageTitle: "notes.nosaka.xyz",
+    pageTitleSuffix: " | nosaka.xyz",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -34,20 +34,20 @@ const config: QuartzConfig = {
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#b487d6",
-          tertiary: "#84a59d",
+          dark: "#0A090C",
+          secondary: "#BC4749",
+          tertiary: "#6D8EA0",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
+          light: "#0A090C",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#c49fe0",
-          tertiary: "#84a59d",
+          secondary: "#d7686a",
+          tertiary: "#6D8EA0",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },
